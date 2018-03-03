@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#redirection to homepage when logged
+LOGIN_REDIRECT_URL = '/'
